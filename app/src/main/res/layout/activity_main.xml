@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activity.MainActivity">
+        <TextView
+            android:id="@+id/tv_check_connection"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="50dp" />
+
+        <EditText
+            android:id="@+id/enterFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter Your First Name"/>
+        <EditText
+            android:id="@+id/enterLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter Your Last Name"/>
+        <EditText
+            android:id="@+id/enterAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:hint="Enter Your Age"/>
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="Save Data"/>
+
+        <Button
+            android:id="@+id/listBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="List Data Show"/>
+
+    </LinearLayout>
+</layout>
